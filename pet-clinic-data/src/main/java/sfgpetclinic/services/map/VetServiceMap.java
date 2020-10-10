@@ -8,7 +8,7 @@ import sfgpetclinic.services.VetService;
 import java.util.Set;
 
 @Service
-public class VetServiceMap<T, ID> extends AbstractMapService<Vet, Long> implements VetService {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     private final SpecialityMapService specialityMapService;
 
