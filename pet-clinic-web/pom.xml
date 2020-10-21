@@ -17,7 +17,6 @@
     <wro4j.version>1.8.0</wro4j.version>
     </properties>
 
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
